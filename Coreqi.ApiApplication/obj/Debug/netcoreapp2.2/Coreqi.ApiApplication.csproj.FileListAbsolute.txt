@@ -1,0 +1,13 @@
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\bin\Debug\netcoreapp2.2\Coreqi.ApiApplication.deps.json
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\bin\Debug\netcoreapp2.2\Coreqi.ApiApplication.runtimeconfig.json
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\bin\Debug\netcoreapp2.2\Coreqi.ApiApplication.runtimeconfig.dev.json
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\bin\Debug\netcoreapp2.2\Coreqi.ApiApplication.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\bin\Debug\netcoreapp2.2\Coreqi.ApiApplication.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.csproj.CoreCompileInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.RazorAssemblyInfo.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.RazorAssemblyInfo.cs
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.AssemblyInfoInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.AssemblyInfo.cs
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.RazorTargetAssemblyInfo.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.ApiApplication\obj\Debug\netcoreapp2.2\Coreqi.ApiApplication.pdb

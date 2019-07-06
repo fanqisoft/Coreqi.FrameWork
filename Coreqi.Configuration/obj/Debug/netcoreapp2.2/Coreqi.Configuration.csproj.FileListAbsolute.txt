@@ -1,0 +1,14 @@
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.csproj.CoreCompileInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.AssemblyInfoInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.AssemblyInfo.cs
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Coreqi.Configuration.deps.json
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Coreqi.Configuration.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Coreqi.Configuration.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.csprojAssemblyReference.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\bin\Debug\netcoreapp2.2\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Configuration\obj\Debug\netcoreapp2.2\Coreqi.Configuration.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.deps.json
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.AssemblyInfo.cs
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb
+C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.csprojAssemblyReference.cache
