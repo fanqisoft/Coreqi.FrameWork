@@ -1013,7 +1013,7 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.ApiExplorer.dll": {}
         }
       },
-      "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
+      "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
@@ -1791,11 +1791,11 @@
           "lib/netstandard1.3/Microsoft.DotNet.PlatformAbstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/2.2.0": {
+      "Microsoft.EntityFrameworkCore/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "2.2.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "2.2.4",
           "Microsoft.Extensions.Caching.Memory": "2.2.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0",
           "Microsoft.Extensions.Logging": "2.2.0",
@@ -1812,7 +1812,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -1821,7 +1821,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
         "type": "package"
       },
       "Microsoft.EntityFrameworkCore.Design/2.2.0": {
@@ -1852,10 +1852,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
+      "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "2.2.0"
+          "Microsoft.EntityFrameworkCore": "2.2.4"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -1864,10 +1864,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
+      "Microsoft.EntityFrameworkCore.SqlServer/2.2.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "2.2.0",
+          "Microsoft.EntityFrameworkCore.Relational": "2.2.4",
           "System.Data.SqlClient": "4.6.0"
         },
         "compile": {
@@ -2978,6 +2978,19 @@
         },
         "runtime": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
+        }
+      },
+      "Panda.DynamicWebApi/0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc.Core": "2.2.5",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Panda.DynamicWebApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Panda.DynamicWebApi.dll": {}
         }
       },
       "Remotion.Linq/2.2.0": {
@@ -4887,6 +4900,29 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
+      "Coreqi.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Coreqi.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coreqi.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.Configuration.dll": {}
+        }
+      },
+      "Coreqi.DbModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/Coreqi.DbModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.DbModels.dll": {}
+        }
+      },
       "Coreqi.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.2",
@@ -4901,6 +4937,64 @@
         },
         "runtime": {
           "bin/placeholder/Coreqi.Infrastructure.dll": {}
+        }
+      },
+      "Coreqi.Repository.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Coreqi.ViewModels": "1.0.0",
+          "Panda.DynamicWebApi": "0.0.5"
+        },
+        "compile": {
+          "bin/placeholder/Coreqi.Repository.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.Repository.Common.dll": {}
+        }
+      },
+      "Coreqi.Repository.EfCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Coreqi.Configuration": "1.0.0",
+          "Coreqi.Repository.Common": "1.0.0",
+          "Coreqi.ViewModels": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.2.4"
+        },
+        "compile": {
+          "bin/placeholder/Coreqi.Repository.EfCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.Repository.EfCore.dll": {}
+        }
+      },
+      "Coreqi.Services.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Autofac.Annotation": "1.0.6",
+          "Coreqi.Repository.Common": "1.0.0",
+          "Coreqi.ViewModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coreqi.Services.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.Services.Common.dll": {}
+        }
+      },
+      "Coreqi.ViewModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "Coreqi.DbModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Coreqi.ViewModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Coreqi.ViewModels.dll": {}
         }
       }
     }
@@ -5728,16 +5822,16 @@
         "microsoft.aspnetcore.mvc.apiexplorer.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.Core/2.2.0": {
-      "sha512": "ALiY4a6BYsghw8PT5+VU593Kqp911U3w9f/dH9/ZoI3ezDsDAGiObqPu/HP1oXK80Ceu0XdQ3F0bx5AXBeuN/Q==",
+    "Microsoft.AspNetCore.Mvc.Core/2.2.5": {
+      "sha512": "/8sr8ixIUD57UFwUntha9bOwex7/AkZfdk1f9oNJG1Ek7p/uuKVa7fuHmYZpQOf35Oxrt+2Ku4WPwMSbNxOuWg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.core/2.2.0",
+      "path": "microsoft.aspnetcore.mvc.core/2.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.Mvc.Core.xml",
-        "microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.mvc.core.2.2.5.nupkg.sha512",
         "microsoft.aspnetcore.mvc.core.nuspec"
       ]
     },
@@ -6491,41 +6585,41 @@
         "microsoft.dotnet.platformabstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/2.2.0": {
-      "sha512": "xfDHe+J94oz2d+ESDU8u+96iSfsiPwpgYGPRSp/bato0Ekjz5kYs61u9mS0GN5t8n/wxc5P3uEJm1x7TfROxhQ==",
+    "Microsoft.EntityFrameworkCore/2.2.4": {
+      "sha512": "aQ0sAe2mOtSp3StjKT2wDA/BO3k8BLfpIXIG1MOlGytjQWQOvW3BzDPfgXOhxbSa7Bhdsx97aYzZUGD3DQAQjQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/2.2.0",
+      "path": "microsoft.entityframeworkcore/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/2.2.0": {
-      "sha512": "/js/H09B8MQGoPDFzJoaAealyL66g4vKf7DVcdBYcxgKztkttjZbRzSWKF9PZZFyfBl9Ia/BiStM70t7kjgMpg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/2.2.4": {
+      "sha512": "GjtIOANlpy7JcGK0Q169n52713hIHHfxUHq1+xoWlAZYSI0h/n2DrEWwCIsrnInU8FaLq4cIG7UgMTL0CnUUPw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/2.2.0",
+      "path": "microsoft.entityframeworkcore.abstractions/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/2.2.0": {
-      "sha512": "/1rw3toRCal80Ch51lIjuf/0WfW9ZGB4eRY1y6GOcOoOvnMXXXt+4xMRw/0k0kIwHsWUNXUpw73jf40/Pe+ZYA==",
+    "Microsoft.EntityFrameworkCore.Analyzers/2.2.4": {
+      "sha512": "cLJo6dikdFQd2j9cFHhC2M1rzUeYvJLR/m7cBcuKRI6ek5t5ZyGZ0hzEJwCQmKRDV4tAl5p+NIrfDjfqTK8POw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/2.2.0",
+      "path": "microsoft.entityframeworkcore.analyzers/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
-        "microsoft.entityframeworkcore.analyzers.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
@@ -6559,29 +6653,29 @@
         "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/2.2.0": {
-      "sha512": "CRJHHp/GqmXByeeODgbDgMDWId9kKT9TDRzHF8voWHFNTajBQl0U4jaMrHxjIP6hJ2olF8n+5GYmQv+v3bUVKQ==",
+    "Microsoft.EntityFrameworkCore.Relational/2.2.4": {
+      "sha512": "Ga+kJhoSBNYv8C2gQl2sB5bTBkWsLFn92CPjZA5ql/MyxJTWri6lf44/GSYEcOQj0tqF5HhMAaB1HxQMiIPBcQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/2.2.0",
+      "path": "microsoft.entityframeworkcore.relational/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/2.2.0": {
-      "sha512": "rCGBF6Hab9633Dh2xtiAcJnDxf2CjaBrGyoagoCoYHH5Ftbdw5zX/e9ABgif5ngzh7DsrBcgxK/3gHBZ2n+TGA==",
+    "Microsoft.EntityFrameworkCore.SqlServer/2.2.4": {
+      "sha512": "e0rW3jJXunnwUCout+lQicDoyviO53qsuawZa/HZsfRoEF/bWGlGTJxUN0MPZVQkEd5Gx8ypdDSRbGHtrQp/SA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/2.2.0",
+      "path": "microsoft.entityframeworkcore.sqlserver/2.2.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.2.2.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.2.2.4.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
@@ -8389,6 +8483,20 @@
         "lib/netstandard1.6/NuGet.Frameworks.xml",
         "nuget.frameworks.4.7.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "Panda.DynamicWebApi/0.0.5": {
+      "sha512": "h2hTmR9lu/FK55NUnIPInuwoJ28xe4XjGchH1v3d1O3lhSzYFpFC0uumuoCWjNHkmMgLE7o1xv9rrWw6qDQEog==",
+      "type": "package",
+      "path": "panda.dynamicwebapi/0.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/netstandard2.0/Panda.DynamicWebApi.dll",
+        "lib/netstandard2.0/Panda.DynamicWebApi.xml",
+        "panda.dynamicwebapi.0.0.5.nupkg.sha512",
+        "panda.dynamicwebapi.nuspec"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -13411,10 +13519,40 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
+    "Coreqi.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.Configuration/Coreqi.Configuration.csproj",
+      "msbuildProject": "../Coreqi.Configuration/Coreqi.Configuration.csproj"
+    },
+    "Coreqi.DbModels/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.DbModels/Coreqi.DbModels.csproj",
+      "msbuildProject": "../Coreqi.DbModels/Coreqi.DbModels.csproj"
+    },
     "Coreqi.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../Coreqi.Infrastructure/Coreqi.Infrastructure.csproj",
       "msbuildProject": "../Coreqi.Infrastructure/Coreqi.Infrastructure.csproj"
+    },
+    "Coreqi.Repository.Common/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.Repository.Common/Coreqi.Repository.Common.csproj",
+      "msbuildProject": "../Coreqi.Repository.Common/Coreqi.Repository.Common.csproj"
+    },
+    "Coreqi.Repository.EfCore/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.Repository.EfCore/Coreqi.Repository.EfCore.csproj",
+      "msbuildProject": "../Coreqi.Repository.EfCore/Coreqi.Repository.EfCore.csproj"
+    },
+    "Coreqi.Services.Common/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.Services.Common/Coreqi.Services.Common.csproj",
+      "msbuildProject": "../Coreqi.Services.Common/Coreqi.Services.Common.csproj"
+    },
+    "Coreqi.ViewModels/1.0.0": {
+      "type": "project",
+      "path": "../Coreqi.ViewModels/Coreqi.ViewModels.csproj",
+      "msbuildProject": "../Coreqi.ViewModels/Coreqi.ViewModels.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13422,6 +13560,8 @@
       "Autofac.Annotation >= 1.0.6",
       "Autofac.Extensions.DependencyInjection >= 4.4.0",
       "Coreqi.Infrastructure >= 1.0.0",
+      "Coreqi.Repository.EfCore >= 1.0.0",
+      "Coreqi.Services.Common >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
@@ -13435,11 +13575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.WebApplication\\Coreqi.WebApplication.csproj",
+      "projectUniqueName": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.WebApplication\\Coreqi.WebApplication.csproj",
       "projectName": "Coreqi.WebApplication",
-      "projectPath": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.WebApplication\\Coreqi.WebApplication.csproj",
+      "projectPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.WebApplication\\Coreqi.WebApplication.csproj",
       "packagesPath": "C:\\Users\\fanqi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.WebApplication\\obj\\",
+      "outputPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13458,8 +13598,14 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj"
+            "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {
+              "projectPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj"
+            },
+            "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Repository.EfCore\\Coreqi.Repository.EfCore.csproj": {
+              "projectPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Repository.EfCore\\Coreqi.Repository.EfCore.csproj"
+            },
+            "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Services.Common\\Coreqi.Services.Common.csproj": {
+              "projectPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Services.Common\\Coreqi.Services.Common.csproj"
             }
           }
         }
@@ -13504,7 +13650,12 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true

@@ -1,0 +1,12 @@
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\bin\Debug\netcoreapp2.2\Coreqi.ViewModels.deps.json
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\bin\Debug\netcoreapp2.2\Coreqi.ViewModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\bin\Debug\netcoreapp2.2\Coreqi.ViewModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\bin\Debug\netcoreapp2.2\Coreqi.DbModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\bin\Debug\netcoreapp2.2\Coreqi.DbModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.csprojAssemblyReference.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.csproj.CoreCompileInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.AssemblyInfoInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.AssemblyInfo.cs
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.csproj.CopyComplete
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.ViewModels\obj\Debug\netcoreapp2.2\Coreqi.ViewModels.pdb

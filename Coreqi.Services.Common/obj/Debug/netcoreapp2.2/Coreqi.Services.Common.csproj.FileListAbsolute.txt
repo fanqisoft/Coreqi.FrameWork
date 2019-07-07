@@ -1,0 +1,16 @@
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.csprojAssemblyReference.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.csproj.CoreCompileInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.AssemblyInfoInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.AssemblyInfo.cs
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.Services.Common.deps.json
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.Services.Common.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.Services.Common.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.DbModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.ViewModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.ViewModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.DbModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.csproj.CopyComplete
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\obj\Debug\netcoreapp2.2\Coreqi.Services.Common.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.Repository.Common.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Services.Common\bin\Debug\netcoreapp2.2\Coreqi.Repository.Common.pdb

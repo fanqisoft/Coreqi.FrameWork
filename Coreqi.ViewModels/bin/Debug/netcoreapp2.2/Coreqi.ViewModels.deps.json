@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "Coreqi.ViewModels/1.0.0": {
+        "dependencies": {
+          "Coreqi.DbModels": "1.0.0"
+        },
+        "runtime": {
+          "Coreqi.ViewModels.dll": {}
+        }
+      },
+      "Coreqi.DbModels/1.0.0": {
+        "runtime": {
+          "Coreqi.DbModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Coreqi.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Coreqi.DbModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

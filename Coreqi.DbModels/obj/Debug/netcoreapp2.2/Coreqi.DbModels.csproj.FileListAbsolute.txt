@@ -1,0 +1,8 @@
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\bin\Debug\netcoreapp2.2\Coreqi.DbModels.deps.json
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\bin\Debug\netcoreapp2.2\Coreqi.DbModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\bin\Debug\netcoreapp2.2\Coreqi.DbModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.csproj.CoreCompileInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.AssemblyInfoInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.AssemblyInfo.cs
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.pdb

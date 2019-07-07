@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Coreqi.Infrastructure\Coreqi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Coreqi.Repository.EfCore\Coreqi.Repository.EfCore.csproj" />
+    <ProjectReference Include="..\Coreqi.Services.Common\Coreqi.Services.Common.csproj" />
   </ItemGroup>
 
 </Project>

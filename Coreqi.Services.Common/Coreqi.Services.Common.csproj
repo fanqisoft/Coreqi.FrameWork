@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Annotation" Version="1.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coreqi.Repository.Common\Coreqi.Repository.Common.csproj" />
+    <ProjectReference Include="..\Coreqi.ViewModels\Coreqi.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,13 +1,14 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "a05c7021cb4d515935030679ecf806961477f11e"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.2": {
       "Coreqi.Infrastructure/1.0.0": {
         "dependencies": {
+          "Autofac": "4.9.2",
           "Autofac.Annotation": "1.0.6",
           "Autofac.Extensions.DependencyInjection": "4.4.0",
           "Microsoft.Extensions.DependencyInjection": "2.2.0"
@@ -28,18 +29,18 @@
           }
         }
       },
-      "Autofac/4.9.1": {
+      "Autofac/4.9.2": {
         "runtime": {
           "lib/netstandard2.0/Autofac.dll": {
-            "assemblyVersion": "4.9.1.0",
-            "fileVersion": "4.9.1.0"
+            "assemblyVersion": "4.9.2.0",
+            "fileVersion": "4.9.2.0"
           }
         }
       },
       "Autofac.Annotation/1.0.6": {
         "dependencies": {
           "AspectCore.Extensions.Reflection": "1.1.0",
-          "Autofac": "4.9.1",
+          "Autofac": "4.9.2",
           "Autofac.Extras.DynamicProxy": "4.5.0",
           "Microsoft.Extensions.Configuration": "1.0.2",
           "Microsoft.Extensions.Configuration.Json": "1.0.2",
@@ -54,7 +55,7 @@
       },
       "Autofac.Extensions.DependencyInjection/4.4.0": {
         "dependencies": {
-          "Autofac": "4.9.1",
+          "Autofac": "4.9.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.2.0"
         },
         "runtime": {
@@ -66,7 +67,7 @@
       },
       "Autofac.Extras.DynamicProxy/4.5.0": {
         "dependencies": {
-          "Autofac": "4.9.1",
+          "Autofac": "4.9.2",
           "Castle.Core": "4.3.1"
         },
         "runtime": {
@@ -399,16 +400,6 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Diagnostics.Tracing/4.1.0": {
@@ -446,16 +437,6 @@
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.IO/4.3.0": {
@@ -497,20 +478,6 @@
           "System.Threading.Tasks": "4.3.0",
           "System.Threading.Thread": "4.0.0",
           "runtime.native.System": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/linux/lib/_._": {
-            "rid": "linux",
-            "assetType": "runtime"
-          },
-          "runtime/osx/lib/_._": {
-            "rid": "osx",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Linq/4.3.0": {
@@ -659,16 +626,6 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Handles": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Threading.Tasks/4.3.0": {
@@ -767,12 +724,12 @@
       "path": "aspectcore.extensions.reflection/1.1.0",
       "hashPath": "aspectcore.extensions.reflection.1.1.0.nupkg.sha512"
     },
-    "Autofac/4.9.1": {
+    "Autofac/4.9.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-L92DMQxpy4Xw3IypXxL8Z4NHt+qIkB1e0NB2OJ9u105Xp5sVsZSJ04YtYyubmM3KG8aC+WpyBhN14XcjPx5gLg==",
-      "path": "autofac/4.9.1",
-      "hashPath": "autofac.4.9.1.nupkg.sha512"
+      "sha512": "sha512-lfCcNOzU97f2WFtdo/+SkR0XtpdH20QA5Ob/T2Iv027wFMvDk7EZZ2oj6ERtWL+LBfPTOrbk9zyLj6Okx2CoHA==",
+      "path": "autofac/4.9.2",
+      "hashPath": "autofac.4.9.2.nupkg.sha512"
     },
     "Autofac.Annotation/1.0.6": {
       "type": "package",

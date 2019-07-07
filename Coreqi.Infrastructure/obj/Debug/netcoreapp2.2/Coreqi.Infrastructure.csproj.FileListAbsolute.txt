@@ -7,3 +7,12 @@ C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\net
 C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
 C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb
 C:\Users\fanqi\source\repos\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.csprojAssemblyReference.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.deps.json
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\bin\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.csprojAssemblyReference.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.csproj.CoreCompileInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.AssemblyInfoInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.AssemblyInfo.cs
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Infrastructure\obj\Debug\netcoreapp2.2\Coreqi.Infrastructure.pdb

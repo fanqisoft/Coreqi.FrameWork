@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {}
+    "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {
+    "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj",
+        "projectUniqueName": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj",
         "projectName": "Coreqi.Infrastructure",
-        "projectPath": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj",
+        "projectPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\Coreqi.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\fanqi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fanqi\\source\\repos\\Coreqi.FrameWork\\Coreqi.Infrastructure\\obj\\",
+        "outputPath": "D:\\coreqi\\Coreqi.FrameWork\\Coreqi.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,7 +65,12 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true

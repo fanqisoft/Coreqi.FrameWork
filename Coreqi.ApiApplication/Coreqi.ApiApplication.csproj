@@ -8,6 +8,14 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Panda.DynamicWebApi" Version="0.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Coreqi.Infrastructure\Coreqi.Infrastructure.csproj" />
+    <ProjectReference Include="..\Coreqi.Repository.EfCore\Coreqi.Repository.EfCore.csproj" />
+    <ProjectReference Include="..\Coreqi.Services.Common\Coreqi.Services.Common.csproj" />
   </ItemGroup>
 
 </Project>
