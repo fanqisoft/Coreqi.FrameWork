@@ -11,6 +11,7 @@ using Autofac.Annotation;
 using Coreqi.Repository.Common.Interface;
 using Coreqi.Services.Common.Interface;
 using Coreqi.ViewModels.User;
+using Microsoft.AspNetCore.Mvc;
 using Panda.DynamicWebApi;
 using Panda.DynamicWebApi.Attributes;
 using System;
@@ -24,9 +25,11 @@ namespace Coreqi.Services.Common.Impl
     {
         [Autowired]
         public IUserRepository UserRepository { get; set; }
-        public void createUser(UserInsertDto user)
+
+        [HttpPost]
+        public void CreateUser(CreateStudentInput user)
         {
-            UserRepository.createUser(user);
+            UserRepository.CreateUser(user);
         }
     }
 }

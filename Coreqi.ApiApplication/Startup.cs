@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Coreqi.Infrastructure.Ioc;
@@ -33,6 +34,9 @@ namespace Coreqi.ApiApplication
             services.AddSwaggerGen(options =>
             {
                 options.SwaggerDoc("v1", new Info { Title = "Coreqi WebApi", Version = "v1" });
+                options.DocInclusionPredicate((docName, description) => true);
+                var filePath = Path.Combine(System.AppContext.BaseDirectory, "Coreqi.ApiApplication.xml");
+                options.IncludeXmlComments(filePath);
             });
             services.AddDynamicWebApi();
             var serviceProvider = IocManager.Instance.Initialize(services);

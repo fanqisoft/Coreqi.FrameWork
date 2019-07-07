@@ -13,7 +13,7 @@ using System.Text;
 
 namespace Coreqi.ViewModels.User
 {
-    public class UserInsertDto: Coreqi.DbModels.User
+    public class CreateStudentInput : Coreqi.DbModels.User
     {
     }
 }

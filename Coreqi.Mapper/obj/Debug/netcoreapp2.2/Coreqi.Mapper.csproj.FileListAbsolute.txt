@@ -1,0 +1,8 @@
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\bin\Debug\netcoreapp2.2\Coreqi.Mapper.deps.json
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\bin\Debug\netcoreapp2.2\Coreqi.Mapper.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\bin\Debug\netcoreapp2.2\Coreqi.Mapper.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\obj\Debug\netcoreapp2.2\Coreqi.Mapper.csproj.CoreCompileInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\obj\Debug\netcoreapp2.2\Coreqi.Mapper.AssemblyInfoInputs.cache
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\obj\Debug\netcoreapp2.2\Coreqi.Mapper.AssemblyInfo.cs
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\obj\Debug\netcoreapp2.2\Coreqi.Mapper.dll
+D:\coreqi\Coreqi.FrameWork\Coreqi.Mapper\obj\Debug\netcoreapp2.2\Coreqi.Mapper.pdb

@@ -7,6 +7,6 @@ namespace Coreqi.Repository.Common.Interface
 {
     public interface IUserRepository
     {
-        void createUser(UserInsertDto user);
+        void CreateUser(CreateStudentInput user);
     }
 }

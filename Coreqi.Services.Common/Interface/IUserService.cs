@@ -10,6 +10,6 @@ namespace Coreqi.Services.Common.Interface
     [DynamicWebApi]
     public interface IUserService:IDynamicWebApi
     {
-        void createUser(UserInsertDto user);
+        void CreateUser(CreateStudentInput user);
     }
 }

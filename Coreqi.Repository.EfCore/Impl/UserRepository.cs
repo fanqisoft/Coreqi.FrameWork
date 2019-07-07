@@ -21,7 +21,7 @@ namespace Coreqi.Repository.EfCore.Impl
     {
         [Autowired]
         public CoreqiDbContext _db { get; set; }
-        public void createUser(UserInsertDto user)
+        public void CreateUser(CreateStudentInput user)
         {
             _db.Users.Add(user);
         }
