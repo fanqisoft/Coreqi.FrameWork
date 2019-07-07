@@ -6,3 +6,4 @@ D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbMode
 D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.AssemblyInfo.cs
 D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.dll
 D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.DbModels\obj\Debug\netcoreapp2.2\Coreqi.DbModels.csprojAssemblyReference.cache

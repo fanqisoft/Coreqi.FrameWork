@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.2": {
       "Coreqi.WebApplication/1.0.0": {
         "dependencies": {
+          "Autofac": "4.9.2",
           "Autofac.Annotation": "1.0.6",
           "Autofac.Extensions.DependencyInjection": "4.4.0",
           "Coreqi.Infrastructure": "1.0.0",

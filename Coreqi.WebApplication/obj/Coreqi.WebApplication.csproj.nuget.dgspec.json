@@ -507,6 +507,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[4.9.2, )"
+            },
             "Autofac.Annotation": {
               "target": "Package",
               "version": "[1.0.6, )"

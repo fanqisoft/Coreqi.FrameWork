@@ -13557,6 +13557,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "Autofac >= 4.9.2",
       "Autofac.Annotation >= 1.0.6",
       "Autofac.Extensions.DependencyInjection >= 4.4.0",
       "Coreqi.Infrastructure >= 1.0.0",
@@ -13619,6 +13620,10 @@
     "frameworks": {
       "netcoreapp2.2": {
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[4.9.2, )"
+          },
           "Autofac.Annotation": {
             "target": "Package",
             "version": "[1.0.6, )"
