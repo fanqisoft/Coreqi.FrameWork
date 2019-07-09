@@ -15,6 +15,7 @@ using System.Text;
 using Microsoft.Extensions.DependencyInjection;
 using System.Linq;
 using Autofac.Extensions.DependencyInjection;
+using Coreqi.Infrastructure.Logger;
 
 namespace Coreqi.Infrastructure.Ioc
 {
@@ -22,15 +23,19 @@ namespace Coreqi.Infrastructure.Ioc
     {
         public static IocManager Instance { get; } = new IocManager();
         public IContainer Container { get; private set; }
-    /// <summary>
-    /// Ioc容器初始化
-    /// </summary>
-    /// <param name="services"></param>
-    /// <returns></returns>
+
+        /// <summary>
+        /// Ioc容器初始化
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
         public IServiceProvider Initialize(IServiceCollection services)
         {
             var builder = new ContainerBuilder();
             builder.RegisterInstance(Instance).As<IIocManager>().SingleInstance();
+
+            LogHelper.CreateServiceProviderWithNLogAndAutofac(builder); //Autofac集成Nlog
+
             builder.Populate(services);
 
             // 注册autofac打标签模式

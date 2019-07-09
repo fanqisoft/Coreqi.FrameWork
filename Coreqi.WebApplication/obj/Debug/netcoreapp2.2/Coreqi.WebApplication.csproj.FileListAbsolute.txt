@@ -77,3 +77,4 @@ D:\coreqi\Coreqi.FrameWork\Coreqi.WebApplication\obj\Debug\netcoreapp2.2\Coreqi.
 D:\coreqi\Coreqi.FrameWork\Coreqi.WebApplication\obj\Debug\netcoreapp2.2\Coreqi.WebApplication.csproj.CopyComplete
 D:\coreqi\Coreqi.FrameWork\Coreqi.WebApplication\obj\Debug\netcoreapp2.2\Coreqi.WebApplication.dll
 D:\coreqi\Coreqi.FrameWork\Coreqi.WebApplication\obj\Debug\netcoreapp2.2\Coreqi.WebApplication.pdb
+D:\coreqi\Coreqi.FrameWork\Coreqi.WebApplication\bin\Debug\netcoreapp2.2\nlog.config
